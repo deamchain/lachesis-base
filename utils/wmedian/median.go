@@ -1,7 +1,7 @@
 package wmedian
 
 import (
-	"lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/inter/pos"
 )
 
 type WeightedValue interface {

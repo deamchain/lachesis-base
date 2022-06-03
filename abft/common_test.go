@@ -1,13 +1,13 @@
 package abft
 
 import (
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/kvdb"
-	"lachesis-base/kvdb/memorydb"
-	"lachesis-base/lachesis"
-	"lachesis-base/utils/adapters"
-	"lachesis-base/vecfc"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/lachesis-base/lachesis"
+	"github.com/deamchain/lachesis-base/utils/adapters"
+	"github.com/deamchain/lachesis-base/vecfc"
 )
 
 type applyBlockFn func(block *lachesis.Block) *pos.Validators

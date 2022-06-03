@@ -1,10 +1,10 @@
 package adapters
 
 import (
-	"lachesis-base/abft/dagidx"
-	"lachesis-base/hash"
-	"lachesis-base/inter/idx"
-	"lachesis-base/vecfc"
+	"github.com/deamchain/lachesis-base/abft/dagidx"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/vecfc"
 )
 
 type VectorSeqToDagIndexSeq struct {

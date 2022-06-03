@@ -3,9 +3,9 @@ package abft
 import (
 	"errors"
 
-	"lachesis-base/abft/election"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/abft/election"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
 )
 
 const (

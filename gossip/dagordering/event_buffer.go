@@ -4,11 +4,11 @@ import (
 	"math"
 	"sync"
 
-	"lachesis-base/eventcheck"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/utils/wlru"
+	"github.com/deamchain/lachesis-base/eventcheck"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/utils/wlru"
 )
 
 type (

@@ -1,7 +1,7 @@
 package cachescale
 
 import (
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 // Ratio alters the cache sizes proportionally to a ratio

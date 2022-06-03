@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
 )
 
 // EventStore is a abft event storage for test purpose.

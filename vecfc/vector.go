@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"math"
 
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 /*

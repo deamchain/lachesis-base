@@ -1,7 +1,7 @@
 package devnulldb
 
 import (
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 // Database is an always empty database.

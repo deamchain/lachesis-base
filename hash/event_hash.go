@@ -11,8 +11,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"lachesis-base/common/bigendian"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/common/bigendian"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type (

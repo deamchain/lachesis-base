@@ -4,13 +4,13 @@ import (
 	"errors"
 	"fmt"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/kvdb"
-	"lachesis-base/kvdb/flushable"
-	"lachesis-base/kvdb/table"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb/flushable"
+	"github.com/deamchain/lachesis-base/kvdb/table"
 )
 
 type Callbacks struct {

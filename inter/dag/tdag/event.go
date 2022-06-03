@@ -1,8 +1,8 @@
 package tdag
 
 import (
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 type TestEvent struct {

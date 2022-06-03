@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"lachesis-base/common/bigendian"
-	"lachesis-base/kvdb"
-	"lachesis-base/kvdb/memorydb"
-	"lachesis-base/kvdb/table"
+	"github.com/deamchain/lachesis-base/common/bigendian"
+	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/lachesis-base/kvdb/table"
 )
 
 func TestSyncedPoolUnderlying(t *testing.T) {

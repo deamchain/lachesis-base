@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/lachesis"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/lachesis"
 )
 
 func TestConfirmBlocks_1(t *testing.T) {

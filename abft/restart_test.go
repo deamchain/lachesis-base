@@ -8,15 +8,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/kvdb"
-	"lachesis-base/kvdb/memorydb"
-	"lachesis-base/lachesis"
-	"lachesis-base/utils/adapters"
-	"lachesis-base/vecfc"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/lachesis-base/lachesis"
+	"github.com/deamchain/lachesis-base/utils/adapters"
+	"github.com/deamchain/lachesis-base/vecfc"
 )
 
 func TestRestart_1(t *testing.T) {

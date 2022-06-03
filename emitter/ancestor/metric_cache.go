@@ -1,8 +1,8 @@
 package ancestor
 
 import (
-	"lachesis-base/hash"
-	"lachesis-base/utils/wlru"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/utils/wlru"
 )
 
 type Metric uint64

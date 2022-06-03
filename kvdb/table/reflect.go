@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"reflect"
 
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 // MigrateTables sets target fields to database tables.

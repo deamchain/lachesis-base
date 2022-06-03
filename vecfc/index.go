@@ -1,15 +1,15 @@
 package vecfc
 
 import (
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/kvdb"
-	"lachesis-base/kvdb/table"
-	"lachesis-base/utils/cachescale"
-	"lachesis-base/utils/simplewlru"
-	"lachesis-base/vecengine"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb/table"
+	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/lachesis-base/utils/simplewlru"
+	"github.com/deamchain/lachesis-base/vecengine"
 )
 
 // IndexCacheConfig - config for cache sizes of Engine

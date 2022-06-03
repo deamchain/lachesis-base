@@ -1,8 +1,8 @@
 package abft
 
 import (
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
 )
 
 const esKey = "e"

@@ -1,6 +1,6 @@
 package streamseeder
 
-import "lachesis-base/utils/cachescale"
+import "github.com/deamchain/lachesis-base/utils/cachescale"
 
 type Config struct {
 	SenderThreads           int

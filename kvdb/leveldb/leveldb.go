@@ -12,7 +12,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 const (

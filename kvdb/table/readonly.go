@@ -1,7 +1,7 @@
 package table
 
 import (
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 // Readonly table wraper of the underling DB, so all the table's data is stored with a prefix in underling DB.

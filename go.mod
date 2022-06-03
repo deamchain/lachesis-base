@@ -1,4 +1,4 @@
-module lachesis-base
+module github.com/deamchain/lachesis-base
 
 go 1.14
 

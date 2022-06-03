@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 func TestLachesisClassicRoots(t *testing.T) {

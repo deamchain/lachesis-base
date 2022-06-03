@@ -5,9 +5,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/idx"
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 func (vi *Engine) setRlp(table kvdb.Store, key []byte, val interface{}) {

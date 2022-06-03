@@ -3,7 +3,7 @@ package hash
 import (
 	"sync"
 
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 var (

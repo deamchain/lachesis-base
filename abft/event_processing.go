@@ -3,9 +3,9 @@ package abft
 import (
 	"github.com/pkg/errors"
 
-	"lachesis-base/abft/election"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/abft/election"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 var (

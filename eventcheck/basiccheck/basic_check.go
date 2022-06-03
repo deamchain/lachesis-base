@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 var (

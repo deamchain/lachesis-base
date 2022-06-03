@@ -8,15 +8,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/kvdb/memorydb"
-	"lachesis-base/utils"
-	"lachesis-base/utils/adapters"
-	"lachesis-base/vecfc"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/lachesis-base/utils"
+	"github.com/deamchain/lachesis-base/utils/adapters"
+	"github.com/deamchain/lachesis-base/vecfc"
 )
 
 func TestCasualityStrategy(t *testing.T) {

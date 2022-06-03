@@ -3,7 +3,7 @@ package synced
 import (
 	"sync"
 
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 // store wrapper around any kvdb.Store.

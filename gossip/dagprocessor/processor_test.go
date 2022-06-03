@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"lachesis-base/eventcheck/queuedcheck"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/dag/tdag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/utils/cachescale"
-	"lachesis-base/utils/datasemaphore"
+	"github.com/deamchain/lachesis-base/eventcheck/queuedcheck"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag/tdag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/lachesis-base/utils/datasemaphore"
 )
 
 func TestProcessor(t *testing.T) {

@@ -1,10 +1,10 @@
 package eventcheck
 
 import (
-	"lachesis-base/eventcheck/basiccheck"
-	"lachesis-base/eventcheck/epochcheck"
-	"lachesis-base/eventcheck/parentscheck"
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/eventcheck/basiccheck"
+	"github.com/deamchain/lachesis-base/eventcheck/epochcheck"
+	"github.com/deamchain/lachesis-base/eventcheck/parentscheck"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 // Checkers is collection of all the checkers

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"lachesis-base/abft/election"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/abft/election"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 func rootRecordKey(r *election.RootAndSlot) []byte {

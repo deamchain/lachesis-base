@@ -1,7 +1,7 @@
 package lachesis
 
 import (
-	"lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/hash"
 )
 
 // Block is a part of an ordered chain of batches of events.

@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type ForEachEvent struct {

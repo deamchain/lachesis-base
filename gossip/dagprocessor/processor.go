@@ -5,14 +5,14 @@ import (
 	"runtime"
 	"sync"
 
-	"lachesis-base/eventcheck"
-	"lachesis-base/eventcheck/queuedcheck"
-	"lachesis-base/gossip/dagordering"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/utils/datasemaphore"
-	"lachesis-base/utils/workers"
+	"github.com/deamchain/lachesis-base/eventcheck"
+	"github.com/deamchain/lachesis-base/eventcheck/queuedcheck"
+	"github.com/deamchain/lachesis-base/gossip/dagordering"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/utils/datasemaphore"
+	"github.com/deamchain/lachesis-base/utils/workers"
 )
 
 var (

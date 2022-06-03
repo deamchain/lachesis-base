@@ -1,8 +1,8 @@
 package dagidx
 
 import (
-	"lachesis-base/hash"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type Seq interface {

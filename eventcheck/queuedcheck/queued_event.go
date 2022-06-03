@@ -1,6 +1,6 @@
 package queuedcheck
 
-import "lachesis-base/inter/dag"
+import "github.com/deamchain/lachesis-base/inter/dag"
 
 type EventTask interface {
 	Event() dag.Event

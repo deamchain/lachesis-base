@@ -3,7 +3,7 @@ package wlru
 import (
 	"sync"
 
-	"lachesis-base/utils/simplewlru"
+	"github.com/deamchain/lachesis-base/utils/simplewlru"
 )
 
 // Cache is a thread-safe fixed size LRU cache.

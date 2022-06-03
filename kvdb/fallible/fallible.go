@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"lachesis-base/kvdb"
+	"github.com/deamchain/lachesis-base/kvdb"
 )
 
 var (

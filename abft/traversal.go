@@ -3,8 +3,8 @@ package abft
 import (
 	"errors"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 type eventFilterFn func(event dag.Event) bool

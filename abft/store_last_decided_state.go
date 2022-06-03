@@ -1,7 +1,7 @@
 package abft
 
 import (
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 const dsKey = "d"

@@ -1,7 +1,7 @@
 package pos
 
 import (
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type (

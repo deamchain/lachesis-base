@@ -1,8 +1,8 @@
 package lachesis
 
 import (
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/pos"
 )
 
 // Consensus is a consensus interface.

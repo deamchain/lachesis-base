@@ -3,7 +3,7 @@ package pos
 import (
 	"math/big"
 
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 // ValidatorsBuilderBig is a helper to create Validators object out of bigint numbers

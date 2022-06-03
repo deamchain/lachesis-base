@@ -3,7 +3,7 @@ package peerleecher
 import (
 	"time"
 
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 type EpochDownloaderConfig struct {

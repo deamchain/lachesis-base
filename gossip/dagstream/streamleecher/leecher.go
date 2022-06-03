@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"lachesis-base/gossip/dagstream"
-	"lachesis-base/gossip/dagstream/streamleecher/peerleecher"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/gossip/dagstream"
+	"github.com/deamchain/lachesis-base/gossip/dagstream/streamleecher/peerleecher"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 // Leecher is responsible for requesting events based on lexicographic event streams

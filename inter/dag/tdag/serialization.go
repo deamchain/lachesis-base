@@ -3,8 +3,8 @@ package tdag
 import (
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"lachesis-base/hash"
-	"lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type TestEventMarshaling struct {

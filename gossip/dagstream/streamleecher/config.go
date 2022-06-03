@@ -3,8 +3,8 @@ package streamleecher
 import (
 	"time"
 
-	"lachesis-base/gossip/dagstream/streamleecher/peerleecher"
-	"lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/gossip/dagstream/streamleecher/peerleecher"
+	"github.com/deamchain/lachesis-base/inter/dag"
 )
 
 type Config struct {

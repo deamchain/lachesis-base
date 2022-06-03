@@ -1,7 +1,7 @@
 package ancestor
 
 import (
-	"lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/hash"
 )
 
 // SearchStrategy defines a criteria used to estimate the "best" subset of parents to emit event with.

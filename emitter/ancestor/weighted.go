@@ -1,7 +1,7 @@
 package ancestor
 
 import (
-	"lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/hash"
 )
 
 type MetricStrategy struct {

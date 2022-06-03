@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"lachesis-base/inter/dag"
-	"lachesis-base/utils"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/utils"
 )
 
 func TestASCIIschemeToDAG(t *testing.T) {

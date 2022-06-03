@@ -4,12 +4,12 @@ import (
 	"math"
 	"sort"
 
-	"lachesis-base/abft/dagidx"
-	"lachesis-base/hash"
-	"lachesis-base/inter/dag"
-	"lachesis-base/inter/idx"
-	"lachesis-base/inter/pos"
-	"lachesis-base/utils/wmedian"
+	"github.com/deamchain/lachesis-base/abft/dagidx"
+	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/lachesis-base/utils/wmedian"
 )
 
 type DagIndex interface {
